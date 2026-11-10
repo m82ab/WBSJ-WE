@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "product": "WBSJ WE",
+  "phase": 0,
+  "service": {
+    "name": "WBSJWERecordingService",
+    "display_name": "WBSJ WE Recording Service",
+    "startup": "automatic",
+    "ipc_name": "WBSJ_WE_RecordingService_v1",
+    "ipc_protocol": 1
+  },
+  "paths": {
+    "data_root": "%PROGRAMDATA%\\WBSJ WE",
+    "logs": "logs",
+    "database": "database",
+    "recordings": "recordings"
+  },
+  "security": {
+    "credential_storage": "Windows DPAPI (planned for Phase 1)",
+    "remote_access_default": false
+  },
+  "phase_0": {
+    "camera_discovery_enabled": false,
+    "rtsp_enabled": false,
+    "recording_enabled": false,
+    "playback_enabled": false
+  }
+}
